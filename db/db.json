@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "name": "Samsung Galaxy S23",
+      "price": 749,
+      "brand": "Samsung",
+      "stock": 30,
+      "description": "6.1-inch display, 256GB storage, Snapdragon 8 Gen 2",
+      "category": "Smartphone",
+      "id": "2"
+    },
+    {
+      "name": "Apple MacBook Air M2",
+      "price": 1099,
+      "brand": "Apple",
+      "stock": 15,
+      "description": "13.6-inch Retina display, 256GB storage, M2 chip",
+      "category": "Laptop",
+      "id": "5"
+    },
+    {
+      "name": "Nike Air Max 270",
+      "price": 150,
+      "brand": "Nike",
+      "stock": 200,
+      "description": "Men's casual running shoes",
+      "category": "Footwear",
+      "id": "6"
+    },
+    {
+      "name": "Adidas Ultraboost 22222222",
+      "price": 180,
+      "brand": "Adidas",
+      "stock": 180,
+      "description": "Performance running shoes",
+      "category": "Footwear",
+      "id": "7"
+    },
+    {
+      "id": "8",
+      "name": "aaa",
+      "price": 12,
+      "brand": "cj",
+      "stock": 1222,
+      "description": "ds",
+      "category": ""
+    }
+  ]
+}

@@ -1,24 +1,36 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Routes, Route, Outlet } from 'react-router-dom';
+import Home from './pages and components/Home';
+import Header from './pages and components/Header';
+import NotFound from './pages and components/NotFound';
+import Products from './pages and components/Products';
+import SideBar from './pages and components/SideBar';
+import CreateP from './pages and components/Create';
+import Update from './pages and components/Update';
+
+const Layout = () => (
+  <div className="MyAPP">
+    <Header />
+    <div className="app-container">
+      <SideBar />
+      <Outlet />
+    </div>
+  </div>
+);
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Routes>
+        <Route element={<Layout />}>
+          <Route path="/" element={<Home />} />
+          <Route path="products" element={<Products />} />
+          <Route path="products/create" element={<CreateP />} />
+          <Route path="products/:Pid/edit" element={<Update />} />
+          <Route path="*" element={<NotFound />} />
+        </Route>
+      </Routes>
+    </Router>
   );
 }
 
