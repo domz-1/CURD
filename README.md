@@ -1,5 +1,5 @@
 
-<img src="https://github.com/user-attachments/assets/616bea9f-113d-4134-a3ae-e8998091dea0" width="300" alt="curd">
+<img src="https://github.com/user-attachments/assets/616bea9f-113d-4134-a3ae-e8998091dea0" width="700" alt="curd">
 
 # CURD React App
 
