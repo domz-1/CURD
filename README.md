@@ -1,5 +1,5 @@
-![CURD Demo](https://path-to-your-gif.gif)
 
+![curd](https://github.com/user-attachments/assets/616bea9f-113d-4134-a3ae-e8998091dea0)
 
 # CURD React App
 
