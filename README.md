@@ -1,9 +1,14 @@
 
+
 <img src="https://github.com/user-attachments/assets/616bea9f-113d-4134-a3ae-e8998091dea0" width="1000" alt="curd">
 
 # CURD React App
 
 A simple React application for performing CRUD (Create, Read, Update, Delete) operations. The app interacts with a mock backend using [JSON Server](https://github.com/typicode/json-server).
+
+## Demo
+
+Check out the live demo: [CURD React App Demo](https://domz-curd.netlify.app/)
 
 ## Getting Started
 
@@ -20,12 +25,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
    ```bash
    git clone https://github.com/domz-1/CURD.git
    ```
-
 2. Navigate to the project directory:
    ```bash
    cd CURD
    ```
-
 3. Install dependencies:
    ```bash
    npm install
@@ -42,7 +45,6 @@ To run the mock backend server using JSON Server:
    ```bash
    json-server --watch --port 5000 db/db.json
    ```
-
 This starts the JSON server on port 5000, and it will monitor changes to the `db.json` file located in the `db` folder.
 
 ## Features
@@ -74,7 +76,6 @@ Builds the app for production to the `build` folder.
 It correctly bundles React in production mode and optimizes the build for best performance.
 
 The build is minified, and filenames include hashes for better cache management.
-
 Your app will be ready to deploy!
 
 ### `npm run eject`
