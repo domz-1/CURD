@@ -10,7 +10,7 @@ useEffect(()=>{
     axios.get(`http://localhost:5000/products/${Pid}`)
     .then((res) => setForm(res.data))
     .catch((err) => console.error(err));
-},[])
+},[Pid])
 
 const [form, setForm] = useState({
     id: "",
