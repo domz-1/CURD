@@ -52,25 +52,6 @@ This starts the JSON server on port 5000, and it will monitor changes to the `db
 - **Update**: Edit existing items.
 - **Delete**: Remove items from the list.
 
-## File Structure
-
-The project is organized into the following structure:
-
-```
-CURD/
-├── db/                 # Folder containing the mock database (db.json)
-├── public/             # Folder containing public assets like index.html
-├── src/                # Folder containing the React app source code
-│   ├── components/     # Reusable UI components
-│   ├── containers/     # Main application containers (logic handling)
-│   ├── actions/        # Redux action creators (for state management)
-│   ├── reducers/       # Redux reducers (state handlers)
-│   ├── App.js          # Main app component
-│   └── index.js        # Entry point for the app
-├── package.json        # Package configuration file
-└── README.md           # Documentation file (this file)
-```
-
 ## Available Scripts
 
 In the project directory, you can run the following commands:
