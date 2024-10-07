@@ -1,5 +1,5 @@
 
-![curd](https://github.com/user-attachments/assets/616bea9f-113d-4134-a3ae-e8998091dea0){width=300px}
+![curd](https://github.com/user-attachments/assets/616bea9f-113d-4134-a3ae-e8998091dea0 | width=300)
 
 
 # CURD React App
