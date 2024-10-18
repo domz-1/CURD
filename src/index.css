@@ -90,11 +90,22 @@ code {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  width: 100%;
+  text-align: center !important;
   padding: 10px;
   gap: 10px;
+  background-color: darkolivegreen;
 }
 .header h1{
-  color: #5b5b5b;
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin: 0 auto;
 }
 .header a{
   text-decoration: none;
@@ -118,8 +129,8 @@ code {
   padding: 10px;
   font-weight: bold;
   border-radius: 5px;
-  background-color: #56262697;
-  color: white;
+  background-color: white;
+  color: black;
 }
 .slide-bar {
   display: flex;
@@ -128,7 +139,7 @@ code {
   align-items: center;
   padding: 10px;
   gap: 10px;
-  background-color: rgb(87, 87, 87);
+  background-color: darkolivegreen;
   width: 100%;
 }
 .del{
@@ -143,9 +154,18 @@ code {
 .styled-table {
   width: 100%;
   border-collapse: collapse;
-  margin: 25px 0;
+  padding: 25px 0;
   font-size: 18px;
   text-align: left;
+  background-image: linear-gradient(
+    180deg,
+    hsl(82deg 39% 30%) 0%,
+    hsl(81deg 22% 43%) 14%,
+    hsl(80deg 17% 57%) 32%,
+    hsl(79deg 18% 71%) 54%,
+    hsl(78deg 18% 85%) 78%,
+    hsl(0deg 0% 100%) 100%
+  );
 }
 
 .styled-table thead tr {
@@ -191,5 +211,27 @@ code {
   gap: 10px;
   width: 100%;
   height: 100vh;
-  margin-top: 100px;
+  padding-top: 100px;
+  background-image: linear-gradient(
+    180deg,
+    hsl(82deg 39% 30%) 0%,
+    hsl(81deg 22% 43%) 14%,
+    hsl(80deg 17% 57%) 32%,
+    hsl(79deg 18% 71%) 54%,
+    hsl(78deg 18% 85%) 78%,
+    hsl(0deg 0% 100%) 100%
+  );
+}
+.home h1{
+  color: white;
+  font-size: 5rem;
+}
+.home p{
+  color: white;
+}
+@media screen and (max-width:1200px) {
+  .home h1{
+    font-size: 2rem;
+    text-align: center;
+  }
 }
